@@ -3,6 +3,16 @@
 
 ---
 
+## Repository Information
+
+Repository Name:  
+**StudentMentalHealth_Team2**
+
+GitHub Repository Link:  
+https://github.com/sawarn-nik/StudentMentalHealth_Team2
+
+---
+
 ## Course
 CSS321 – Data Warehousing and Data Mining  
 
