@@ -241,6 +241,16 @@ PCA plots generated:
 
 - Scree Plot
 - PCA Biplot
+- 
+## PCA Results
+
+| Component | Standard Deviation | Proportion of Variance | Cumulative Proportion |
+|----------|------------------|------------------------|----------------------|
+| PC1 | 1.0305 | 0.2124 | 0.2124 |
+| PC2 | 1.0127 | 0.2051 | 0.4175 |
+| PC3 | 0.9977 | 0.1991 | 0.6166 |
+| PC4 | 0.9938 | 0.1975 | 0.8141 |
+| PC5 | 0.9641 | 0.1859 | 1.0000 |
 
 ---
 
