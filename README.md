@@ -241,7 +241,7 @@ PCA plots generated:
 
 - Scree Plot
 - PCA Biplot
-- 
+
 ## PCA Results
 
 | Component | Standard Deviation | Proportion of Variance | Cumulative Proportion |
