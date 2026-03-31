@@ -490,6 +490,6 @@ requirements.R
 
 List the work done by each team member. For example:
 
-S S Pavan Charan | Data preprocessing, initial visualization, EDA  
+S S Pavan Charan     | Data preprocessing, initial visualization, EDA  
 Nikkath Zabeen shaik | Models development, evaluation, hyperparameter tuning  
-Nikhil Mishra | Visualization, report writing  
+Nikhil Mishra        | Visualization, report writing  
