@@ -427,3 +427,10 @@ requirements.R
 ```python
 
 ```
+## Contribution
+
+List the work done by each team member. For example:
+
+001 | Data preprocessing, initial visualization, EDA  
+002 | Models development, evaluation, hyperparameter tuning  
+003 | Visualization, report writing  
