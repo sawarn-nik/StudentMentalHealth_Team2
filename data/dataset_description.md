@@ -1,7 +1,4 @@
-# Dataset Description
-
-## Dataset Name
-Student Mental Health Survey Dataset
+# Student Mental Health Survey Dataset
 
 ---
 
@@ -13,24 +10,27 @@ This dataset contains survey responses collected from university students to ana
 ## Dataset Overview
 The dataset includes demographic, academic, lifestyle, and psychological factors that may influence student mental health.
 
-It is used to perform **data mining tasks such as exploratory analysis, classification, clustering, and association rule mining**.
+It is used to perform:
+- Exploratory Data Analysis (EDA)
+- Classification
+- Clustering
+- Association Rule Mining
 
 ---
 
-## Number of Observations
-7022 student records
+## Dataset Statistics
 
----
-
-## Number of Attributes
-20 variables
+| Feature | Value |
+|--------|------|
+| Number of Observations | 7022 |
+| Number of Attributes | 20 |
 
 ---
 
 ## Attribute Description
 
 | Attribute | Description |
-|-----------|-------------|
+|----------|------------|
 | Age | Age of the student |
 | Course | Student's academic program |
 | Gender | Gender of the student |
@@ -56,31 +56,29 @@ It is used to perform **data mining tasks such as exploratory analysis, classifi
 
 ## Data Types
 
-The dataset includes:
+### Numerical Variables
+- Age
+- CGPA
+- Stress_Level
+- Depression_Score
+- Anxiety_Score
+- Financial_Stress
+- Semester_Credit_Load
 
-- **Numerical Variables**
-  - Age
-  - CGPA
-  - Stress_Level
-  - Depression_Score
-  - Anxiety_Score
-  - Financial_Stress
-  - Semester_Credit_Load
-
-- **Categorical Variables**
-  - Gender
-  - Course
-  - Sleep_Quality
-  - Physical_Activity
-  - Diet_Quality
-  - Social_Support
-  - Relationship_Status
-  - Substance_Use
-  - Counseling_Service_Use
-  - Family_History
-  - Chronic_Illness
-  - Extracurricular_Involvement
-  - Residence_Type
+### Categorical Variables
+- Gender
+- Course
+- Sleep_Quality
+- Physical_Activity
+- Diet_Quality
+- Social_Support
+- Relationship_Status
+- Substance_Use
+- Counseling_Service_Use
+- Family_History
+- Chronic_Illness
+- Extracurricular_Involvement
+- Residence_Type
 
 ---
 
@@ -88,23 +86,25 @@ The dataset includes:
 
 This dataset is used to:
 
-- Analyze factors affecting student mental health
-- Perform exploratory data analysis (EDA)
-- Build predictive models for mental health risk
-- Identify behavioral patterns using clustering
-- Discover relationships using association rule mining
+- Analyze factors affecting student mental health  
+- Perform exploratory data analysis (EDA)  
+- Build predictive models for mental health risk  
+- Identify behavioral patterns using clustering  
+- Discover relationships using association rule mining  
 
 ---
 
 ## How to Use the Dataset
 
-1. Download the dataset file.
-2. Place it inside the **data/** directory of the project.
-3. Run the scripts in the **scripts/** folder to reproduce the analysis.
+1. Download the dataset file  
+2. Place it inside the `data/` directory of the project  
+3. Run the scripts in the `scripts/` folder to reproduce the analysis  
 
 ---
 
+## Notes
 
-```python
+- Scores such as Stress, Depression, Anxiety, and Financial Stress range from 0 to 5  
+- Dataset is suitable for both supervised and unsupervised learning tasks  
 
-```
+---
