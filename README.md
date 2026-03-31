@@ -323,6 +323,23 @@ Advantages:
 - Easy to interpret
 - Visual representation
 - Suitable for categorical prediction
+- 
+### Decision Tree Results
+
+#### Confusion Matrix
+
+| Prediction \ Actual | High | Low | Medium |
+|-------------------|------|-----|--------|
+| High | 195 | 0 | 0 |
+| Low | 0 | 80 | 0 |
+| Medium | 0 | 0 | 1831 |
+
+#### Metrics
+
+| Metric | Value |
+|-------|------|
+| Accuracy | 1.000 |
+| Kappa | 1.000 |
 
 ### Naive Bayes
 
@@ -331,6 +348,23 @@ Advantages:
 - Fast probabilistic model
 - Performs well with large datasets
 
+### Naive Bayes Results
+
+#### Confusion Matrix
+
+| Prediction \ Actual | High | Low | Medium |
+|-------------------|------|-----|--------|
+| High | 188 | 0 | 3 |
+| Low | 0 | 79 | 0 |
+| Medium | 7 | 1 | 1828 |
+
+#### Metrics
+
+| Metric | Value |
+|-------|------|
+| Accuracy | 0.9948 |
+| Kappa | 0.9775 |
+
 ### Support Vector Machine (SVM)
 
 Advantages:
@@ -338,17 +372,34 @@ Advantages:
 - High accuracy
 - Effective for complex decision boundaries
 
+### Support Vector Machine (SVM) Results
+
+#### Confusion Matrix
+
+| Prediction \ Actual | High | Low | Medium |
+|-------------------|------|-----|--------|
+| High | 195 | 0 | 0 |
+| Low | 0 | 79 | 0 |
+| Medium | 0 | 1 | 1831 |
+
+#### Metrics
+
+| Metric | Value |
+|-------|------|
+| Accuracy | 0.9995 |
+| Kappa | 0.998 |
+
 ---
 
-# Model Performance
+## Model Comparison
 
-| Model | Accuracy |
-|------|------|
-| Decision Tree | 100% |
-| Naive Bayes | 99.48% |
-| SVM | 99.95% |
+| Model | Accuracy | Kappa | Performance |
+|------|----------|------|-------------|
+| Decision Tree | 1.000 | 1.000 | Perfect classification |
+| Naive Bayes | 0.9948 | 0.9775 | Slight misclassification |
+| SVM | 0.9995 | 0.998 | Near perfect |
 
-SVM achieved the highest prediction accuracy.
+SVM provides the best generalization performance, while Decision Tree achieves perfect accuracy, which may indicate potential overfitting.
 
 ---
 
